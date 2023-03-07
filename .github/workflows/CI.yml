@@ -22,7 +22,7 @@ jobs:
       
     - name: Build
       # Build your program with the given configuration
-      run: cmake --build 
+      run: cmake --build_build
       
     - name: Install
-      run: cmake --build  --target install
+      run: cmake --build_build  --target install
