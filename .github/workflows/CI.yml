@@ -25,4 +25,4 @@ jobs:
       run: cmake --build _build
       
     - name: Install
-      run: cmake --build_build  --target install
+      run: cmake --build _build  --target install
